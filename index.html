@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gues-game">
+        <div class="gues-game-itm">
+            <div class="heade">
+                <h1 class="title"> Guessing Game</h1>
+            </div>
+            <div class="body">
+                <form action="">
+                    <div class="game-input">
+                        <label for="guessingNumber">Enter Guess Between 1-5: </label>
+                        <input type="number" name="" id="guessingNumber" min="1" max="5" required>
+                    </div>
+                    <div class="button">
+                        <button class="submit-btn" id="submitBtn" type="submit">Check Result</button>
+                    </div>
+                </form>
+                <p class="resultText"></p>
+                <p class="rimainingAttempts"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

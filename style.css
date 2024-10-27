@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,900;1,6..12,600&display=swap');
+
+/* reset code start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Nunito,sans-serif;
+}
+/* reset code end */
+
+.gues-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://static.vecteezy.com/system/resources/previews/006/852/817/non_2x/abstract-colorful-gradient-lines-with-blue-and-pink-light-on-purple-background-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gues-game-itm {
+    background: url(./image/image1.jpg);
+    padding: 10vb;
+    border-radius: 5px;
+    box-shadow: 0 1px 13px 1px #00000057;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 34%;
+}
+.game-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+h1.title {
+    padding-bottom: 17px;
+    color: #fff;
+}
+.game-input label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.game-input input {
+    width: 40%;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+button#submitBtn {
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 11px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 40%
+}
+button#submitBtn:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+p.resultText {
+    margin: 50px 0 15px 0;
+    font-size: 23px;
+    color: #fff;
+}
+p.rimainingAttempts {
+    margin-bottom: 30px;
+    font-size: 23px;
+    color: #fff;
+}
+
+@media screen and (max-width: 634px) {
+    .gues-game-itm {
+        padding: 2vb !important;
+        width: 90% !important;
+    }
+}
+
+
+@media screen and (max-width: 1742px) {
+    .gues-game-itm {
+        padding: 5vb;
+        width: 80%;
+    }
+}
